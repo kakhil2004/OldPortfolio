@@ -1,4 +1,4 @@
-import {Bar,Line,Pie} from 'react-chartjs-2'
+import {Bar} from 'react-chartjs-2'
 import  { useState } from 'react';
 import {Chart as ChartJS} from 'chart.js/auto'
 
@@ -7,7 +7,7 @@ function Chart(props) {
         yLabels : {
             1 : 'Novice', 2 : 'Advanced Beginner', 3 : 'Competent', 4 : 'Proficient', 5 : 'Expert',
         },
-        labels: ['Python','Javascript','Java','Arduino','Machine Learning','Game Development'],
+        labels: ['Python','Javascript','Java','Arduino','NN, ML, AI','Game Dev'],
         
         datasets: [{
             label: 'Skill Level 1-5',

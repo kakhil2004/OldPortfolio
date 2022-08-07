@@ -13,11 +13,6 @@ div .smallbox{
 div .smallbox:hover{
     background-color: black;
 }
-img#icon {
-    width: 30px;
-    height: 30px;
-    
-}
 
 h2#title{
     margin-top:20px;

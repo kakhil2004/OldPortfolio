@@ -1,31 +1,67 @@
-import Box from '../components/Box.js'
 import Legal from '../components/Legal.js'
-import resumeIcon from '../images/icons/folder.png'
+import resume from '../images/icons/folder.png'
 import trophy from '../images/icons/trophy.png'
-import githubImg from '../images/icons/github.png'
+import github from '../images/icons/github.png'
 import blueprint from '../images/icons/blueprint.png'
 import suitcase from '../images/icons/suitcase.png'
 import skills from '../images/icons/pencil.png'
 import handshake from '../images/icons/handshake.png'
 import love from '../images/icons/love.png'
-import akhil from '../images/Akhil.png'
+import PageTitle from '../components/PageTitle.js';
+import Box2 from '../components/Box2.js'
 
 function Home() {
+  const data = {
+    options:{
+      width: '300px',
+      height: '150px'
+    },
+    dataset: [
+    {
+      title: 'Resume',
+      image: resume,
+      link: 'https://drive.google.com/file/d/1Vip-qzqGid_2sIiIqoFb0PbDchvcWfN_/view?usp=sharing'
+    },
+    {
+      title: 'Education/Skills',
+      image: skills,
+      link: 'Skills'
+    },
+    {
+      title: 'Experience',
+      image: suitcase,
+      link: 'Experience'
+    },
+    {
+      title: 'Projects',
+      image: blueprint,
+      link: 'Projects'
+    },
+    {
+      title: 'Awards',
+      image: trophy,
+      link: 'Awards'
+    },
+    {
+      title: 'GitHub',
+      image: github,
+      link: 'https://github.com/kakhil2004'
+    },
+    {
+      title: 'Social Media',
+      image: love,
+      link: 'Socials'
+    },
+    {
+      title: 'Attributions',
+      image: handshake
+    }
+    ]
+  }
   return (
     <>
-      <img id="pfp" src={akhil} alt="Akhil"></img>
-      <h1 id="maintitle">Welcome to my Portfolio!</h1><br></br>
-      <p id="clformore">Click on a box to learn more</p>
-      <div class='boxes'>
-      <Box image={resumeIcon} title="Resume" link="https://drive.google.com/file/d/1Vip-qzqGid_2sIiIqoFb0PbDchvcWfN_/view?usp=sharing"/>
-      <Box image={skills} title="Education/Skills" link="Skills"/>
-      <Box image={suitcase} title="Experience"/>
-      <Box image={blueprint} title="Projects"/>
-      <Box image={trophy} title="Awards"/>
-      <Box image={githubImg} title="GitHub" link="https://github.com/kakhil2004"/>
-      <Box image={love} title="Social Media"/>
-      <Box image={handshake} title="Attributions" link="Attributions"/>
-      </div>
+      <PageTitle img={true} title={'Welcome to my Portfolio!'} subtext={'Click on a box to learn more'}/>
+      <Box2 data={data}/>
       <Legal/>
     </>
     

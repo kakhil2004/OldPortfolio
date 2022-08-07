@@ -20,17 +20,5 @@ div .hugebox{
     display: inline-block;
 }
 
-img#bigicon {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-}
 
 
-p#hb {
-    color:#C9D1D9;
-    font-size: 19px;
-}

@@ -7,13 +7,13 @@ import suitcase from '../images/icons/suitcase.png'
 import skills from '../images/icons/pencil.png'
 import handshake from '../images/icons/handshake.png'
 import love from '../images/icons/love.png'
+import PageTitle from '../components/PageTitle.js';
 
 
 function Attributions() {
   return (
-    <div id='container'>
-      <h1 id="maintitle">Attributions</h1><br></br>
-      <p id="clformore">All elements that are not owned by Akhil Kothapalli are cited here</p>
+    <>
+      <PageTitle img={false} title={'Attributions'} subtext={'All elements that are not owned by Akhil Kothapalli are cited here!'}/>
       <img id="icon" src={blueprint} alt="logo"></img>
       <a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by Smashicons - Flaticon</a><br></br>
       <img id="icon" src={githubImg} alt="logo"></img>
@@ -31,7 +31,7 @@ function Attributions() {
       <img id="icon" src={love} alt="logo"></img>
       <a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a><br></br>
       <Legal/>
-    </div>
+    </>
     
   );
 }
