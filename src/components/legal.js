@@ -1,8 +1,8 @@
-
 function Legal(props) {
     return (
-      <div class="legal">
-        <p>Hello</p>
+      <div id="botDiv">
+        <hr></hr>
+        <p id="bot">Copyright (c) 2022 with Akhil Kothapalli</p>
       </div>
     );
   }
