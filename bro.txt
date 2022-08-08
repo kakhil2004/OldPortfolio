@@ -1,0 +1,8 @@
+<a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/trophy" title="trophy icons">Trophy icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Folder icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/work" title="work icons">Work icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/skills" title="skills icons">Skills icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/agreement" title="agreement icons">Agreement icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a>
