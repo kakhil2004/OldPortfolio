@@ -8,7 +8,10 @@ import skills from '../images/icons/pencil.png'
 import handshake from '../images/icons/handshake.png'
 import love from '../images/icons/love.png'
 import PageTitle from '../components/PageTitle.js';
-
+import insta from '../images/icons/insta.png'
+import gmail from '../images/icons/gmail.png'
+import linkin from '../images/icons/linkedin.png'
+import cisco from '../images/icons/cisco.png'
 
 function Attributions() {
   return (
@@ -30,6 +33,14 @@ function Attributions() {
       <a href="https://www.flaticon.com/free-icons/agreement" title="agreement icons">Agreement icons created by Freepik - Flaticon</a><br></br>
       <img id="icon" src={love} alt="logo"></img>
       <a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a><br></br>
+      <img id="icon" src={insta} alt="logo"></img>
+      <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a><br></br>
+      <img id="icon" src={gmail} alt="logo"></img>
+      <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Freepik - Flaticon</a><br></br>
+      <img id="icon" src={linkin} alt="logo"></img>
+      <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a><br></br>
+      <img id="icon" src={cisco} alt="logo"></img>
+      <a href="https://www.flaticon.com/free-icons/cisco" title="cisco icons">Cisco icons created by Freepik - Flaticon</a><br></br>
       <Legal/>
     </>
     

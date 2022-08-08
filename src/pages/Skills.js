@@ -1,16 +1,15 @@
-import HugeBox from '../components/HugeBox.js'
 import Legal from '../components/Legal.js';
 import gt from '../images/gt.png'
 import nhs from '../images/nhs.png'
 import Chart from '../components/Chart.js'
 import PageTitle from '../components/PageTitle.js';
-import Box2 from '../components/Box2.js';
+import Box from '../components/Box.js';
 const techText = "Pursuing a Bachelor's in Computer Science"
 
 function Skills() {
   const data = {
     options : {
-      width: '700px',
+      width: '600px',
       height: '300px',
       iconSize:'huge',
       center: true,
@@ -19,29 +18,36 @@ function Skills() {
     
     dataset : [
       {
-        title : 'Georgia Institute Of Technology',
+        title : 'Georgia Institute Of Technology - (Class of 26)',
         image : gt,
         link: 'https://www.cc.gatech.edu/',
         list:[
-          'Working towards a Bachelors in CS',
-          'Planning to become an officer at a MakerSpace'
+          'Candidate for Bachelor of Computer Science',
+          'Minor in Electrical Engineering',
+          'Planning to volunteer at IDC'
         ]
       },
       {
-        title : 'Northview High School',
+        title : 'Northview High School - (Class of 22)',
         image : nhs,
         link: 'https://www.fultonschools.org/northviewhs',
         list:[
-          'Gradutated on May 2022'
+          'Recieved the Engineering Seal',
+          'Electrical Head/ Lead Technician for FRC team 1683',
+          'Science Olympiad Officer'
         ]
+      },
+      {
+        useOtherElement: <Chart />,
+        link: 'Chart'
+        
       }
     ]
   }
   return (
     <>
       <PageTitle title={'Education and Skills'} subtext={'Click on a box to learn more'} />
-      <Box2 data={data}/>
-      <Chart />      
+      <Box data={data}/>   
       <Legal />
     </>
 

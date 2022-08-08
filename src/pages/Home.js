@@ -8,7 +8,7 @@ import skills from '../images/icons/pencil.png'
 import handshake from '../images/icons/handshake.png'
 import love from '../images/icons/love.png'
 import PageTitle from '../components/PageTitle.js';
-import Box2 from '../components/Box2.js'
+import Box2 from '../components/Box.js'
 
 function Home() {
   const data = {
@@ -20,7 +20,8 @@ function Home() {
     {
       title: 'Resume',
       image: resume,
-      link: 'https://drive.google.com/file/d/1Vip-qzqGid_2sIiIqoFb0PbDchvcWfN_/view?usp=sharing'
+      link: 'https://drive.google.com/file/d/1Vip-qzqGid_2sIiIqoFb0PbDchvcWfN_/view?usp=sharing',
+      redirect: true
     },
     {
       title: 'Education/Skills',
@@ -45,7 +46,8 @@ function Home() {
     {
       title: 'GitHub',
       image: github,
-      link: 'https://github.com/kakhil2004'
+      link: 'https://github.com/kakhil2004',
+      redirect: true
     },
     {
       title: 'Social Media',
@@ -54,13 +56,14 @@ function Home() {
     },
     {
       title: 'Attributions',
-      image: handshake
+      image: handshake,
+      link: 'Attributions'
     }
     ]
   }
   return (
     <>
-      <PageTitle img={true} title={'Welcome to my Portfolio!'} subtext={'Click on a box to learn more'}/>
+      <PageTitle img={true} title={"Hi, I'm Akhil Kothapalli!"} subtext={'Click on a box to learn more'}/>
       <Box2 data={data}/>
       <Legal/>
     </>

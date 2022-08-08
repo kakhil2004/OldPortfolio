@@ -1,17 +1,14 @@
-import Chart from '../components/Chart.js'
 import Legal from '../components/Legal.js'
 import PageTitle from '../components/PageTitle.js';
-import Box2 from '../components/Box2.js';
+import Box from '../components/Box.js';
 import github from '../images/icons/github.png'
 import resume from '../images/icons/folder.png'
-import Box from '../components/Box.js'
 import trophy from '../images/icons/trophy.png'
 import blueprint from '../images/icons/blueprint.png'
 import suitcase from '../images/icons/suitcase.png'
 import skills from '../images/icons/pencil.png'
 import handshake from '../images/icons/handshake.png'
 import love from '../images/icons/love.png'
-import akhil from '../images/Akhil.png'
 
 function Test() {
   const data = {
@@ -55,14 +52,15 @@ function Test() {
     },
     {
       title: 'Attributions',
-      image: handshake
+      image: handshake,
+      link: 'Attributions'
     }
   ]}
 
   return (
     <>
       <PageTitle img={false} title={'Test Page'} subtext={'This is where I test various components!'}/>
-      <Box2 data={data}/>
+      <Box data={data}/>
       <Legal/>
     </>
 

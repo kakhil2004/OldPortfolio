@@ -23,7 +23,6 @@ function Chart(props) {
         }]
     })
     return (
-        <div class="chart">
         <Bar data={userdata} options={{indexAxis:'y',scales: {
             x: {
                 max:5,
@@ -35,7 +34,6 @@ function Chart(props) {
             }
         }
     }}/>
-    </div>
     );
   }
   
