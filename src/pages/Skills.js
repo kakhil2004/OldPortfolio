@@ -4,7 +4,6 @@ import nhs from '../images/nhs.png'
 import Chart from '../components/Chart.js'
 import PageTitle from '../components/PageTitle.js';
 import Box from '../components/Box.js';
-const techText = "Pursuing a Bachelor's in Computer Science"
 
 function Skills() {
   const data = {
