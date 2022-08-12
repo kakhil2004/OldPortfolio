@@ -13,6 +13,7 @@ import { Projects } from './pages/Projects.js';
 import Chart from './components/Chart.js';
 function App() {
   return (
+<<<<<<< Updated upstream
     <Routes>
       
       <Route path="/" element={<Home/>} />
@@ -29,3 +30,39 @@ function App() {
 }
 
 export default App;
+=======
+    
+    <HashRouter>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/Skills" element={<Skills/>} />
+        <Route exact path="/Attributions" element={<Attributions/>} />
+        <Route exact path="/Experience" element={<Experience />} />
+        <Route exact path="/Projects" element={<Projects />} />
+        <Route exact path="/Socials" element={<Social/>} />
+        <Route exact path="/test" element={<Test/>} />
+        <Route exact path="/Chart" element={<Chart/>} />
+      </Routes>
+    </HashRouter>
+  );
+}
+
+export default App;
+
+/*
+
+<BrowserRouter>
+  <Routes>
+    <Route exact path="/" element={<Home/>} />
+    <Route exact path="/Skills" element={<Skills/>} />
+    <Route exact path="/Attributions" element={<Attributions/>} />
+    <Route exact path="/Experience" element={<Experience />} />
+    <Route exact path="/Projects" element={<Projects />} />
+    <Route exact path="/Socials" element={<Social/>} />
+    <Route exact path="/test" element={<Test/>} />
+    <Route exact path="/Chart" element={<Chart/>} />
+  </Routes>
+</BrowserRouter>
+
+*/
+>>>>>>> Stashed changes

@@ -26,22 +26,26 @@ function Home() {
     {
       title: 'Education/Skills',
       image: skills,
+<<<<<<< Updated upstream
       link: 'Skills'
+=======
+      link: '#/Skills'
+>>>>>>> Stashed changes
     },
     {
       title: 'Experience',
       image: suitcase,
-      link: 'Experience'
+      link: '#/Experience'
     },
     {
       title: 'Projects',
       image: blueprint,
-      link: 'Projects'
+      link: '#/Projects'
     },
     {
       title: 'Awards',
       image: trophy,
-      link: 'Awards'
+      link: '#/Awards'
     },
     {
       title: 'GitHub',
@@ -52,18 +56,18 @@ function Home() {
     {
       title: 'Social Media',
       image: love,
-      link: 'Socials'
+      link: '#/Socials'
     },
     {
       title: 'Attributions',
       image: handshake,
-      link: 'Attributions'
+      link: '#/Attributions'
     }
     ]
   }
   return (
     <>
-      <PageTitle img={true} title={"Hi, I'm Akhil Kothapalli!"} subtext={'Click on a box to learn more'}/>
+      <PageTitle img={true} title={"Hi, I'm Akhil Kothapalli! V2"} subtext={'Click on a box to learn more'}/>
       <Box2 data={data}/>
       <Legal/>
     </>
