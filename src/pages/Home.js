@@ -26,11 +26,7 @@ function Home() {
     {
       title: 'Education/Skills',
       image: skills,
-<<<<<<< Updated upstream
-      link: 'Skills'
-=======
       link: '#/Skills'
->>>>>>> Stashed changes
     },
     {
       title: 'Experience',
@@ -67,7 +63,7 @@ function Home() {
   }
   return (
     <>
-      <PageTitle img={true} title={"Hi, I'm Akhil Kothapalli! V2"} subtext={'Click on a box to learn more'}/>
+      <PageTitle img={true} title={"Hi, I'm Akhil Kothapalli!"} subtext={'Click on a box to learn more'}/>
       <Box2 data={data}/>
       <Legal/>
     </>
