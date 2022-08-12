@@ -3,7 +3,7 @@ import Home from './pages/Home.js'
 import Skills from './pages/Skills.js'
 import Test from './pages/test.js'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -14,7 +14,25 @@ import { Projects } from './pages/Projects.js';
 import Chart from './components/Chart.js';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
+      <Route exact path="/" component={Home}/>
+  
+    </HashRouter>
+    
+  );
+}
+
+export default App;
+
+/*
+<Route exact path="/Skills" component={Skills} />
+        <Route exact path="/Attributions" component={Attributions} />
+        <Route exact path="/Experience" component={Experience} />
+        <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/Socials" component={Social} />
+        <Route exact path="/test" component={Test} />
+        <Route exact path="/Chart" component={Chart} />
+<BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/Skills" element={<Skills/>} />
@@ -26,7 +44,4 @@ function App() {
         <Route exact path="/Chart" element={<Chart/>} />
       </Routes>
     </BrowserRouter>
-  );
-}
-
-export default App;
+    */
