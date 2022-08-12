@@ -26,7 +26,8 @@ function Home() {
     {
       title: 'Education/Skills',
       image: skills,
-      link: 'Skills'
+      link: 'Skills',
+      redirect: true
     },
     {
       title: 'Experience',
