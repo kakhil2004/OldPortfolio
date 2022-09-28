@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c39f92cd.css",
-    "main.js": "/Portfolio/static/js/main.19a2b1c0.js",
+    "main.js": "/Portfolio/static/js/main.636c7892.js",
     "static/media/AGCO.jpeg": "/Portfolio/static/media/AGCO.1a22d5ff8c8aa81722d3.jpeg",
     "static/media/gt.png": "/Portfolio/static/media/gt.7c3c50974efa834167fe.png",
     "static/media/eotd.jpg": "/Portfolio/static/media/eotd.3f6b33474175e735afd8.jpg",
@@ -14,16 +14,17 @@
     "static/media/cisco.png": "/Portfolio/static/media/cisco.f1380dab153c8e5f5048.png",
     "static/media/trophy.png": "/Portfolio/static/media/trophy.16e6df06d5ae2e4ee3f4.png",
     "static/media/github.png": "/Portfolio/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/solidworks.png": "/Portfolio/static/media/solidworks.c85f400f37cbf74500cc.png",
     "static/media/suitcase.png": "/Portfolio/static/media/suitcase.e14b0bb3d0624bcc8e9b.png",
     "static/media/love.png": "/Portfolio/static/media/love.e1f49c9bcd9cd0d1e488.png",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/blueprint.png": "/Portfolio/static/media/blueprint.4372406f98e61b097930.png",
     "index.html": "/Portfolio/index.html",
     "main.c39f92cd.css.map": "/Portfolio/static/css/main.c39f92cd.css.map",
-    "main.19a2b1c0.js.map": "/Portfolio/static/js/main.19a2b1c0.js.map"
+    "main.636c7892.js.map": "/Portfolio/static/js/main.636c7892.js.map"
   },
   "entrypoints": [
     "static/css/main.c39f92cd.css",
-    "static/js/main.19a2b1c0.js"
+    "static/js/main.636c7892.js"
   ]
 }
