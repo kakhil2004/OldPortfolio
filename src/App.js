@@ -11,6 +11,7 @@ import Attributions from './pages/Attributions.js';
 import { Social } from './pages/Social.js';
 import { Experience } from './pages/Experience.js';
 import { Projects } from './pages/Projects.js';
+import Awards from './pages/Awards.js';
 import Chart from './components/Chart.js';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Attributions" element={<Attributions />} />
+        <Route path="/Awards" element={<Awards />} />
         <Route path="/Experience" element={<Experience />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Socials" element={<Social />} />

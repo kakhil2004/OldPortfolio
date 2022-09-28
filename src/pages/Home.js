@@ -20,7 +20,7 @@ function Home() {
     {
       title: 'Resume',
       image: resume,
-      link: 'https://drive.google.com/file/d/1Vip-qzqGid_2sIiIqoFb0PbDchvcWfN_/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1zB3OfnVuSAS9MPyQvgu5oMh2aSIClyRr/view?usp=sharing',
       redirect: true
     },
     {
